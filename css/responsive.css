@@ -1,0 +1,106 @@
+
+@media screen and (max-width:1200px){
+.content{
+	width: 100%;
+}
+
+.top-row-pad, .nav-pad{
+	padding: 20px 50px;
+}
+}
+
+
+@media screen and (max-width:1000px){
+.content-pad{
+	padding: 20px;
+}
+
+.content{
+	width: 100%;
+}
+.wallpaper-div{
+	margin: 50px 50%;
+	transform: translateX(-55%);
+}
+
+}
+
+@media screen and (max-width:900px){
+	.nav{
+		height: 100vh;
+		margin-top: -100vh;
+		position: fixed;
+		background: #f5f5f5;
+		z-index: 3;
+		padding-top: 70px;
+		transition: 0.3s;
+	}
+
+	.top-row{
+		position: fixed;
+		z-index: 4;
+	}
+	.nav-item{
+		float: none;
+		margin:auto;
+		margin: 10px;
+		padding: 10px;
+		text-align: center;
+		border:1px solid black; 
+	}
+	.nav-pad{
+		padding: 20px;
+	}
+	.hide-big{
+		display: inline-block;
+	}
+
+	.top-row-pad{
+		padding: 20px;
+	}
+
+	.logo{
+		font-size: 25px !important;
+	}
+
+	.hide-small{
+		display: none;
+	}.content{
+		width: 90%;
+	}
+	.content-pad{
+		padding: 0px;
+		padding-top: 50px;
+	}.wallpaper{
+		background-position: right;
+	}
+	.col{
+		width: 100%;
+		float: none;
+	}
+	.pad1{
+		padding: 0;
+	}
+
+	.item-txt, .item-pic{
+		height: 120px;
+	}
+
+	.blog-x{
+		position: fixed;
+		top: 80vh;
+		left: 85vw;
+	}
+}
+
+
+@media screen and (max-width:500px){
+	.wallpaper-div{
+		width: 350px;
+		height: 350px;
+	}
+
+	.item-txt, .item-pic{
+		height: 80px;
+	}
+}

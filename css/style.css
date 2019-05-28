@@ -1,0 +1,265 @@
+body{
+	margin: auto;
+	font-size: 14px !important;
+	font-family: sans-serif;
+	background: #f5f5f5;
+	padding-bottom: 200px;
+}
+
+.clear{
+	clear: both;
+}
+
+.top-row{
+	width: 100%;
+	font-size: 16px !important;
+}
+
+.top-row-pad{
+	padding: 20px 230px;
+	padding-bottom: 10px;
+}
+
+.logo{
+	font-family: serif;
+	float: left;
+	font-size: 30px !important;
+	font-weight: bolder; 
+}
+
+.t-r-i{
+	display: inline-block;
+	float: right;
+	padding: 10px;
+}
+
+.nav{
+	width: 100%;
+}
+
+.nav-pad{
+	padding: 20px 230px;
+}
+
+.nav-item{
+	float: left;
+	margin-right: 20px;
+	font-weight: 100;
+	color: grey;
+}
+
+.wallpaper{
+	background: url(../images/wallpaper.png) center no-repeat;
+	background-size: cover;
+	height: 500px;
+}
+
+.wallpaper-div{
+	background: #fff;
+	width: 400px;
+	height: 400px;
+	margin-top: 50px;
+	position: absolute;
+	overflow: hidden;
+	border:1px solid grey;
+}
+
+.wall-div-item{
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+
+.wall-div-pic{
+	width: 100%;
+	height: 100%;
+	background: grey;
+}
+
+.wall-div-txt{
+	width: 400px;
+	height: 400px;
+	margin-top: 400px;
+	position: absolute;
+	background: rgb(0,0,0,0.95);
+	overflow: hidden;
+	color: #fff;
+	font-size: 26px !important;
+	transition: 0.3s;
+}
+
+.wall-div-item:hover > .wall-div-txt{
+	margin-top: 0px;
+	transition: 0.3s;
+}
+
+.wdt2{
+	font-size: 14px !important;
+}
+
+.content{
+	margin: auto;
+	width: 80%;
+}
+
+.content-pad{
+	padding:0px 50px;
+}
+
+.col{
+	float: left;
+}
+
+.col-70{
+	width: 70%;
+}
+
+.col-30{
+	width: 30%;
+}
+
+.pad1{
+	padding: 10px;
+}
+
+.item{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.item:hover{
+	cursor: pointer;
+}
+
+.item:hover > .item-txt > .item-head{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.item-pic{
+	float: left;
+	width: 25%;
+	height: 160px;
+	background: grey;
+}
+
+.item-txt{
+	margin-left: 3%;
+	height: 160px;
+	width: 70%;
+	float: left;
+	overflow: hidden;
+}
+
+.item-head{
+	font-size: 16px !important;
+	font-weight: bolder;
+}
+
+.item-cerpt{
+	font-weight: normal;
+
+}
+
+.item-dit{
+	height: 7em;
+}
+
+/*POST***********/
+.post-box{
+	width:100%;
+	overflow: hidden;
+	/*height: 100vh;*/
+	position: absolute;
+	background: #f5f5f5;
+	z-index: 2;
+	padding-bottom: 100px;
+}
+
+.body{
+	/*display: none;*/
+}
+
+.blog-x{
+	font-size: 35px !important;
+	color: grey;
+	top: 50px;
+	left: 50px;
+	position: fixed;
+	color: black;
+	cursor: pointer;
+	z-index: 3;
+	transition: 0.3s;
+}.blog-x:hover{
+	color: brown;
+}
+
+.blog-content{
+	width: 80%;
+	margin: auto;
+	margin-top: 50px;
+}
+
+.blog-image{
+	width: 100%;
+	height: 300px;
+	margin: auto;
+	background: grey;
+	margin-bottom: 40px;
+}
+
+.blog-post{
+	font-size: 20px !important;
+}
+
+.blog-title{
+	font-size: 35px !important;
+	font-weight: bolder;
+	margin-bottom: 20px;
+}
+
+.blog-dits{
+	color: grey;
+	margin: 20px 0;
+}
+
+.hide-big{
+	display: none;
+}
+
+.hamburger{
+	cursor: pointer;
+	transition: 0.3s;
+}.hamburger:hover{
+	color: brown;
+}
+
+.blog-loading{
+	text-align: center;
+	width: 80vw;
+	margin-top: 20%;
+	/*background: red;*/
+}
+
+.ig-pictures{
+	float: left;
+	background: grey;
+	width: 50%;
+}
+
+.social-head{
+	color: grey;
+	margin-top: 40px;
+	margin-left: 10px;
+}
+
+.social-avi{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	border-radius: 100px;
+	background: grey;
+	position: absolute;
+	margin-top: -15px;
+	margin-left: 20px;
+}
